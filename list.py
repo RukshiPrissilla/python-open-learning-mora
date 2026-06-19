@@ -50,3 +50,32 @@ K=['s','d','g']
 #K[2]=g
 #K[-2]=d
 #K[1:]=d,g
+print()
+
+#STACKS   last in, first out
+def push(stack,value):
+    stack.append(value)
+def pop(stack):
+     stack.pop()
+
+my_stack=[]
+push(my_stack,"a")
+push(my_stack,"b")
+push(my_stack,"c")
+print(my_stack) #['a','b','c']
+pop(my_stack)  # ['a','b']
+print(my_stack)
+
+#QUEUES  first in, first out
+def enqueue(queue,value):
+    queue.append(value)
+def dequeue(queue):
+     queue.pop(0)
+
+queue=[]
+enqueue(queue,"g")
+enqueue(queue,"h")
+enqueue(queue,"i")
+print(queue)  #['g','h','i']
+dequeue(queue) 
+print(queue)  #['h','i']
