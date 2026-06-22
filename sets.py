@@ -4,7 +4,7 @@ print(my_set)  #{1,4,5}
 
 #set with multiple data types
 r_set={1,("ef","hi","btt"),7.5} 
-print(r_set)  #{1,("ef","hi"),4.9}
+print(r_set)  #{1,("ef","hi"),7.5}
 
 #no duplicates
 t_set={1,2,1,2,3}
